@@ -49,11 +49,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                                 &mo 3   &kp F7                  &kp F8                   &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                                  &none   &kp LA(LC(LEFT_ARROW))  &kp LA(LC(RIGHT_ARROW))  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans             &none   &trans                  &trans                   &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                             &trans                  &trans                   &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &kp LA(LC(ENTER))  &trans                          &trans                   &trans  &trans   &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                                 &mo 3   &kp F7          &kp F8                  &kp F9                   &kp F10                     &kp F11                      &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &none                                                  &none   &kp LEFT_ARROW  &kp RIGHT_ARROW         &trans                   &trans                      &trans                       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans             &none   &trans          &kp LA(LC(LEFT_ARROW))  &kp LA(LC(RIGHT_ARROW))  &kp LA(LC(LG(LEFT_ARROW)))  &kp LA(LC(LG(RIGHT_ARROW)))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                             &trans          &trans                  &trans                   &trans                      &trans                       &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &kp LA(LC(ENTER))  &trans                  &trans                  &trans                   &trans                      &trans                       &trans
             >;
         };
 
